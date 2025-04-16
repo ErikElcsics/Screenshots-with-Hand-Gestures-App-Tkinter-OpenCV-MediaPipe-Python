@@ -222,9 +222,6 @@ class GestureScreenshotApp:
 
         tk.Button(top, text="Close", command=top.destroy).pack(pady=5)
 
-    # [Rest of the methods (detect_gesture, show_flash_and_feedback,
-    # show_thumbnail_preview, capture_video, on_close) remain the same as before]
-
     def detect_gesture(self, landmarks):
         gesture = self.gesture_type.get()
         if gesture == "Open Palm":
