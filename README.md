@@ -39,7 +39,9 @@ Take screenshots with your hand gestures using just a webcam! This app is built 
 
 ## 📸 Gestures Supported
 
-✋ Open Palm - To take a screenshot 
+✋ Open Palm - To take a screenshot
+
+ 
 ✌️ Peace Sign - To take a screenshot with style 
 
 NOTE: More gestures can be added easily in code.
@@ -49,8 +51,12 @@ NOTE: More gestures can be added easily in code.
 ## 🛠️ Installation
 
 
-git clone https://github.com/your-username/gesture-screenshot-app.git
+https://github.com/ErikElcsics/Screenshots-with-Hand-Gestures-App-Tkinter-OpenCV-MediaPipe-Python.git
+
+
 cd gesture-screenshot-app
+
+
 python Screenshots_With_Hand_Gestures.py
 
 
