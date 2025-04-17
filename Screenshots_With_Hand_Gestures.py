@@ -113,7 +113,7 @@ class GestureScreenshotApp:
         tk.Label(gallery_header, text="Recent Screenshots:", font=("Arial", 12, "bold"),
                  bg="#ecf0f1").pack(side=tk.LEFT)
 
-        # More prominent refresh button
+        # Gallery refresh button
         self.refresh_btn = tk.Button(gallery_header, text="⟳ Refresh Gallery",
                                      command=self.update_gallery, font=("Arial", 10, "bold"),
                                      bg="#3498db", fg="white", relief=tk.RAISED)
